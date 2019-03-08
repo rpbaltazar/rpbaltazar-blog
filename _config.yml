@@ -1,13 +1,36 @@
 # Site settings
-title: Good Clean Read
-tag_text: Good Clean Read
-description: A responsive template for publishing single-page websites, articles that are easy on the eyes
-url: "http://127.0.0.1:4000"
-baseurl: ""
 
-font-awesome-include: true # make this false if you don't need font-awesome
+# Name of your site (displayed in the header)
+name: rpbaltazar random notes
+description: Random notes or ideas I thought were worth of later remembering
+avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+
+navigation:
+  - name: Blog
+    url: /
+  - name: About
+    url: /about
+  - name: Archive
+    url: /archive
+
+# Pagination
+paginate: 5
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  github: rpbaltazar
+  instagram: rpbaltazar
+  linkedin:
+  stackoverflow: users/2893397/rpbaltazar
+  twitter: rpbaltazar
 
 # Build settings
 markdown: kramdown
 
 exclude: ["README.md"]
+
+# Use the following plug-ins
+plugins:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-paginate
