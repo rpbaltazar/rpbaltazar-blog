@@ -3,7 +3,7 @@
 # Name of your site (displayed in the header)
 name: rpbaltazar random notes
 description: Random notes or ideas I thought were worth of later remembering
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+avatar: images/icon.png
 
 navigation:
   - name: Blog
