@@ -62,7 +62,7 @@ start_date = Date.parse('01-01-2019')
 end_date = Date.parse('03-04-2019')
 dr = DateRange.new(start_date, end_date)
 monthly_dates = dr.in_monthly_step
-=> [Tue, 01 Jan 2019, Fri, 01 Feb 2019, Fri, 01 Mar 2019, Mon, 01 Apr 2019]
+# => [Tue, 01 Jan 2019, Fri, 01 Feb 2019, Fri, 01 Mar 2019, Mon, 01 Apr 2019]
 ```
 
 This seemed to work perfectly fine until we had to rely on end of months date ranges.
@@ -171,6 +171,13 @@ end
 ```
 
 Because I felt that we could benefit in the future from it, I decided to extract
-the code to a gem itself that does not rely on Rails' Date nor DateTime. It does
-support it but it works on top of Ruby's native Time. You might want to take a
-look at it and feel free to comment, use it or open any issues you might find.
+the code to a [gem itself](https://github.com/rpbaltazar/jiff-date_range) that
+does not rely on Rails' Date methods nor DateTime.
+At the time of writing I haven't yet tested it with rails for any unforseen
+conflicts, but in theory because its written on top of Ruby's Date, it should
+support Rails with no issues. You might want to take a look at it and feel free
+to comment, use it or open any issues you might find.
+
+The gem implementation has a couple more useful methods that I don't mention here
+such as `include?`, `overlap?` and `overlap`. These make sense to exist as part
+of the DateRange.
