@@ -3,7 +3,7 @@ id: 49
 title: Job interview guidelines
 date: 2013-10-26T13:00:21+00:00
 author: rpbaltazar
-layout: post
+# layout: post
 guid: http://balazar.net/random/?p=49
 permalink: /2013/10/26/job-interview-guidelines/
 categories:

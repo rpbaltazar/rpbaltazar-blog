@@ -1,7 +1,7 @@
 ---
 title: Read/Write replicas in Rails 6
 author: rpbaltazar
-layout: post
+# layout: post
 categories:
 - Computer Science
 - Databases

@@ -1,7 +1,7 @@
 ---
 title: The Strange Date Range Case
 author: rpbaltazar
-layout: post
+# layout: post
 categories:
   - Rails
 tags:

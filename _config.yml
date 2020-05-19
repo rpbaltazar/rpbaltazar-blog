@@ -1,9 +1,17 @@
 # Site settings
 
 # Name of your site (displayed in the header)
-name: rpbaltazar random notes
 title: rpbaltazar random notes
+title_separator: "|"
+subtitle: Random notes or ideas I thought were worth of later remembering
+name: rpbaltazar
+email: rui.p.baltazar@gmail.com
 description: Random notes or ideas I thought were worth of later remembering
+url: https://blog.balazar.net
+repository: rpbaltazar/blog
+twitter_username: rpbaltazar
+github_username:  rpbaltazar
+instagram_username: rpbaltazar
 avatar: /images/icon.png
 
 navigation:
@@ -18,15 +26,31 @@ navigation:
 paginate: 5
 
 # Includes an icon in the footer for each username you enter
-footer-links:
-  github: rpbaltazar
-  instagram: rpbaltazar
-  linkedin:
-  stackoverflow: users/2893397/rpbaltazar
-  twitter: rpbaltazar
+# footer-links:
+#   github: rpbaltazar
+#   instagram: rpbaltazar
+#   linkedin:
+#   stackoverflow: users/2893397/rpbaltazar
+#   twitter: rpbaltazar
 
 # Build settings
 markdown: kramdown
+theme: minimal-mistakes-jekyll
+
+# theme settings
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+minimal_mistakes_skin: "mint" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+logo: "/images/icon.png"
 
 exclude: ["README.md"]
 

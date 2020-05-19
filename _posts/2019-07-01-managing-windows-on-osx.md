@@ -1,7 +1,7 @@
 ---
 title: Managing windows on OS X
 author: rpbaltazar
-layout: post
+# layout: post
 categories:
   - Productivity Tools
   - Computer Configuration

@@ -3,7 +3,7 @@ id: 85
 title: Starting a new project? Some guidelines
 date: 2014-06-30T10:30:59+00:00
 author: rpbaltazar
-layout: post
+# layout: post
 guid: http://balazar.net/random/?p=85
 permalink: /2014/06/30/starting-a-new-project-some-guidelines/
 image: /wp-content/uploads/2014/06/man-1191845_1280.jpg
@@ -14,7 +14,7 @@ tags:
   - project management
   - web
 ---
-When starting a new project is important for you to keep in mind that it is going to be used and handled by someone else in the future (worst case scenario is the future you &#8211; who might not remember everything your present you thought when starting the project). Therefore, there are some basic steps that you can go through in order to keep your project organised, usable and maintainable.  
+When starting a new project is important for you to keep in mind that it is going to be used and handled by someone else in the future (worst case scenario is the future you &#8211; who might not remember everything your present you thought when starting the project). Therefore, there are some basic steps that you can go through in order to keep your project organised, usable and maintainable.
 <!--more-->
 
   * Write a README file

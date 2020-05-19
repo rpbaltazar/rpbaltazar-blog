@@ -3,7 +3,7 @@ id: 166
 title: Postgres indexes concurrently in ActiveRecord
 date: 2016-03-03T08:19:05+00:00
 author: rpbaltazar
-layout: post
+# layout: post
 guid: http://balazar.net/random/?p=166
 permalink: /2016/03/03/postgres-indexes-concurrently-in-activerecord/
 categories:
@@ -24,7 +24,7 @@ I&#8217;ve realized that adding those was taking me a long time due to the amoun
 
 <!--more-->
 
-During the index creation, even though read operations on the table are still allowed, Postgres locks write operations to that table until the index creation is done.  
+During the index creation, even though read operations on the table are still allowed, Postgres locks write operations to that table until the index creation is done.
 This can become tricky when you have to run such migrations on production.
 
 The desperation lead me to find out about a Postgres option for index creations: `Concurrently`. This option allows creating an index without locking table access for writing operations (insert, update, delete).
@@ -35,7 +35,7 @@ Such detail implies that the migration should be run used in combination with th
 
 Because of the described situation is actually highly recommended that you run the index creation in an isolated migration. All the other migrations will run inside its transaction and rollback automatically if something goes wrong.
 
-Finally, an example of such index creation:  
+Finally, an example of such index creation:
 `<br />
 class AddIndexToDailyReports < ActiveRecord::Migration
   disable_ddl_transaction!

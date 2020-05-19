@@ -1,7 +1,7 @@
 ---
 title: TIL - Chrome has blocked accelerometer access
 author: rpbaltazar
-layout: post
+# layout: post
 categories:
   - TIL
 tags:

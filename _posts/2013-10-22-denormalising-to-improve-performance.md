@@ -3,7 +3,7 @@ id: 11
 title: Denormalising to improve performance?
 date: 2013-10-22T07:00:28+00:00
 author: rpbaltazar
-layout: post
+# layout: post
 guid: http://balazar.net/random/?p=11
 permalink: /2013/10/22/denormalising-to-improve-performance/
 categories:
