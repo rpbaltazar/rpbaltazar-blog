@@ -1,7 +1,7 @@
 ---
 title: New Year, New Conference
 author: rpbaltazar
-layout: post
+# layout: post
 categories:
   - Conferences
   - Ruby

@@ -3,7 +3,7 @@ id: 98
 title: Multiple line wrapping CSS
 date: 2014-11-13T02:52:00+00:00
 author: rpbaltazar
-layout: post
+# layout: post
 guid: http://balazar.net/random/?p=98
 permalink: /2014/11/13/multiple-line-wrapping-css/
 videourl:
@@ -18,7 +18,7 @@ tags:
 ---
 Recently in our project we&#8217;ve had an issue that involved multiline text wrapping. It&#8217;s always been a bit shaddy to do it. Some people use character count and then chop the string, some others just rely on the height and so on.
 
-The inexistence of a overall accepted answer worries me a little bit, given that it is not so uncommon.  
+The inexistence of a overall accepted answer worries me a little bit, given that it is not so uncommon.
 I understand that, with the mobile invasion of the market, mobile first and changing the website to show contents according to which platform you are using makes total sense, and wrapping with ellipsis shouldn&#8217;t be the solution.
 
 Hiding content from the users is never the solution, showing a bit and tell them &#8220;Ah! Ah! you can&#8217;t see more!!&#8221; is even worse! Nevertheless, in this specific scenario, wrapping with ellipsis is accepted provided that we can have multiple line.

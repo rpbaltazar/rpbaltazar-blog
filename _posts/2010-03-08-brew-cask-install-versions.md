@@ -1,5 +1,5 @@
 ---
-layout: post
+# layout: post
 title:  "[TIP] Brew cask install specific version"
 ---
 

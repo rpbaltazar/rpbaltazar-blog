@@ -1,7 +1,7 @@
 ---
 title: Story Branch - Branch utility gem
 author: rpbaltazar
-layout: post
+# layout: post
 categories:
   - Productivity Tools
   - Tracker Tools

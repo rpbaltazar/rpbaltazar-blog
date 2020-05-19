@@ -3,7 +3,7 @@ id: 73
 title: MarkerWithLabel.js
 date: 2014-01-31T07:55:32+00:00
 author: rpbaltazar
-layout: post
+# layout: post
 guid: http://balazar.net/random/?p=73
 permalink: /2014/01/31/markerwithlabel-js/
 categories:

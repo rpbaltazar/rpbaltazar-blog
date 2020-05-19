@@ -3,7 +3,7 @@ id: 114
 title: Password Choosing
 date: 2015-01-12T02:02:37+00:00
 author: rpbaltazar
-layout: post
+# layout: post
 guid: http://balazar.net/random/?p=114
 permalink: /2015/01/12/password-choosing/
 videourl:

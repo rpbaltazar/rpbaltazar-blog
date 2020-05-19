@@ -3,7 +3,7 @@ id: 55
 title: Curiosities about mass public transport
 date: 2013-11-06T06:49:59+00:00
 author: rpbaltazar
-layout: post
+# layout: post
 guid: http://balazar.net/random/?p=55
 permalink: /2013/11/06/curiosities-about-mass-public-transport/
 categories:
@@ -27,105 +27,105 @@ Even though being a huge surface coverage it **doesn&#8217;t make it the longest
       <th >
         Location
       </th>
-      
+
       <th >
         Year Opened
       </th>
-      
+
       <th >
         Coverage
       </th>
-      
+
       <th >
         Number of stations
       </th>
     </tr>
-    
+
     <tr>
       <td >
         London
       </td>
-      
+
       <td >
         1863
       </td>
-      
+
       <td >
         402 Km
       </td>
-      
+
       <td >
         270
       </td>
     </tr>
-    
+
     <tr>
       <td >
         New York City
       </td>
-      
+
       <td >
         1868 (Elevated) || 1904 (Subway)
       </td>
-      
+
       <td >
         373 Km
       </td>
-      
+
       <td >
         468
       </td>
     </tr>
-    
+
     <tr>
       <td >
         Budapest
       </td>
-      
+
       <td >
         1896
       </td>
-      
+
       <td >
         30.8 Km
       </td>
-      
+
       <td >
         42
       </td>
     </tr>
-    
+
     <tr>
       <td >
         Seoul
       </td>
-      
+
       <td >
         1973
       </td>
-      
+
       <td >
         526.3 Km
       </td>
-      
+
       <td >
         379
       </td>
     </tr>
-    
+
     <tr>
       <td >
         Shanghai
       </td>
-      
+
       <td >
         1993
       </td>
-      
+
       <td >
         468 Km
       </td>
-      
+
       <td >
         303
       </td>

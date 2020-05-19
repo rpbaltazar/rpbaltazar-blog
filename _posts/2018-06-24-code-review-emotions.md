@@ -1,7 +1,7 @@
 ---
 title: Code Review Emotions
 author: rpbaltazar
-layout: post
+# layout: post
 categories:
   - Conferences
   - Ruby
