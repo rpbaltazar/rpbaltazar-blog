@@ -47,11 +47,34 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
 
 minimal_mistakes_skin: "mint" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 logo: "/images/icon.png"
+teaser: /images/article_placeholder.jpg
 
+author:
+  name: "Rui Baltazar"
+  avatar: "/images/rpbaltazar-profile.png"
+  bio: "I'm an enthusiastic developer, proficient in getting things done. As a developer, I never turn down a nice challenge and I'm always eager to learn. I'm also a travel lover and a PADI divemaster so remote work for me is a plus!" # Note: Markdown is allowed
+  location: "Singapore"
+  links:
+    - label: "Currently working @ PerxTech"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.perxtech.com/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/rpbaltazar"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/rpbaltazar"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "http://sg.linkedin.com/in/rpbaltazar"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/rpbaltazar"
+
+include: ["_pages"]
 exclude: ["README.md"]
 
 # Use the following plug-ins
