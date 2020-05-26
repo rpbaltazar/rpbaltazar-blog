@@ -39,7 +39,10 @@ defaults:
     values:
       layout: single
       read_time: true
-      comments: true
+      comments:
+        provider: disqus
+        disqus:
+          shortname: rpbaltazar-blog.disqus.com
       share: true
       related: true
   # _pages
