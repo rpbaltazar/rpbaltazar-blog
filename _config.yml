@@ -40,9 +40,9 @@ defaults:
       layout: single
       read_time: true
       comments:
-        provider: disqus
+        provider: "disqus"
         disqus:
-          shortname: rpbaltazar-blog.disqus.com
+          shortname: "rpbaltazar-blog"
       share: true
       related: true
   # _pages
